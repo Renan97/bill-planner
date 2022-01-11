@@ -1,6 +1,8 @@
 import React from "react";
 import styled from "styled-components";
 import EditIcon from "@mui/icons-material/Edit";
+import { useAppSelector, useAppDispatch } from "../../app/hooks";
+import { billSelector } from "../bill/billSlice";
 
 const EditPen = styled(EditIcon)`
   color: #2c2c2c;
@@ -9,13 +11,6 @@ const EditPen = styled(EditIcon)`
   display: block;
 `;
 
-type BillType = {
-  id: number;
-  billName: string;
-  value: number;
-  billNumber?: number;
-  totalBillNumber?: number;
-};
 const BillDiv = styled.div`
   height: 30px;
   width: max-content;
@@ -31,60 +26,63 @@ const BillDiv = styled.div`
     vertical-align: middle;
     line-height: 20px;
   }
-  & > div:nth-child(1) {
+  & > div:nth-child(2) {
     width: 200px;
   }
-  & > div:nth-child(2) {
+  & div:nth-child(3) {
     width: 100px;
     text-align: end;
   }
-  & > div:nth-child(3) {
+  & div:nth-child(4) {
     width: 50px;
     text-align: center;
   }
-  & > div:nth-child(4) {
+  & div:nth-child(5) {
+    width: 90px;
+    text-align: center;
+  }
+  & div:nth-child(6) {
+    width: 90px;
+    text-align: center;
+  }
+  & div:nth-child(7) {
     width: 30px;
     display: inline-flex;
     align-items: center;
   }
 `;
-
-const mockData: Array<BillType> = [
-  {
-    id: 1,
-    billName: "Internet Vivo",
-    value: 99.99,
-    billNumber: undefined,
-    totalBillNumber: undefined,
-  },
-  {
-    id: 2,
-    billName: "Gas cozinha",
-    value: 49.99,
-    billNumber: undefined,
-    totalBillNumber: undefined,
-  },
-  {
-    id: 3,
-    billName: "IPVA",
-    value: 149.99,
-    billNumber: 2,
-    totalBillNumber: 6,
-  },
-];
+const IsPaidInput = styled.input`
+  position: relative;
+  position: relative;
+  top: 4px;
+  left: 0;
+`;
 
 export default function BillList() {
-  const Bill = ({ bill }: any) => {
+  const billList = useAppSelector(billSelector).bill;
+  const dispatch = useAppDispatch();
+  const Bill = (bill: BillType) => {
     return (
       <BillDiv>
-        <div>{bill.billName}</div> <div>R${bill.value}</div>{" "}
+        <IsPaidInput
+          checked={bill.isPaid}
+          type="checkbox"
+          name="isPaid"
+          id="input-paid"
+        />
+        <div style={{ textDecoration: bill.isPaid ? "line-through" : "" }}>
+          {bill.billName}
+        </div>{" "}
+        <div>R${bill.value}</div>
         <div>
           {bill.totalBillNumber ? (
             bill.billNumber + "/" + bill.totalBillNumber
           ) : (
             <> &infin;</>
           )}
-        </div>{" "}
+        </div>
+        <div>{bill.expectedPaymentDate}</div>
+        <div>{bill.finalDayPayment}</div>
         <div>
           <EditPen />
         </div>
@@ -92,13 +90,5 @@ export default function BillList() {
     );
   };
 
-  const makeEditableBill = () => {};
-
-  return (
-    <div>
-      {mockData.map((bill: BillType) => (
-        <Bill bill={bill} />
-      ))}
-    </div>
-  );
+  return <div>{billList.map((bill: BillType) => Bill(bill))}</div>;
 }

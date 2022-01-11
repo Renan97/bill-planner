@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import { Counter } from "./features/counter/Counter";
 import SideMenu from "../src/features/sidemenu/SideMenu";
 import "./App.css";
@@ -11,8 +11,16 @@ const WorkArea = styled.div`
   position: absolute;
   padding: 5px;
 `;
+
+type pessoa = {
+  nome: string;
+  sobrenome: string;
+  age: number;
+};
+
 function App() {
-  const [open, setOpen] = React.useState(false);
+  const [open, setOpen] = useState(false);
+
   return (
     <div className="App">
       <SideMenu open={open} setOpen={setOpen}></SideMenu>

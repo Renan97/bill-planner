@@ -26,6 +26,17 @@ namespace LoginController
             return Ok(msg);
         }
 
+        [HttpGet]
+        [Route("/signin")]
+        public ActionResult SignInGet(string username, string password)
+        {
+            string msg = "Login!";
+
+            return Ok(msg);
+        }
+
+
+
         [HttpPost]
         [Route("/forgotpassword")]
         public ActionResult ResetPassword(string username)

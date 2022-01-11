@@ -5,7 +5,6 @@ import MuiDrawer from "@mui/material/Drawer";
 import MuiAppBar, { AppBarProps as MuiAppBarProps } from "@mui/material/AppBar";
 import Toolbar from "@mui/material/Toolbar";
 import List from "@mui/material/List";
-import CssBaseline from "@mui/material/CssBaseline";
 import Typography from "@mui/material/Typography";
 import Divider from "@mui/material/Divider";
 import IconButton from "@mui/material/IconButton";
@@ -17,6 +16,7 @@ import ListItemIcon from "@mui/material/ListItemIcon";
 import ListItemText from "@mui/material/ListItemText";
 import InboxIcon from "@mui/icons-material/MoveToInbox";
 import MailIcon from "@mui/icons-material/Mail";
+import AddBillModal from "../bill/AddBillModal";
 
 const drawerWidth = 200;
 
@@ -90,6 +90,8 @@ const Drawer = styled(MuiDrawer, {
 }));
 
 export default function MiniDrawer({ open, setOpen }: any) {
+  const [openModal, setOpenModal] = React.useState(false);
+
   const theme = useTheme();
 
   const handleDrawerOpen = () => {
@@ -119,6 +121,8 @@ export default function MiniDrawer({ open, setOpen }: any) {
           <Typography variant="h6" noWrap component="div">
             Bill Planner
           </Typography>
+
+          <button onClick={() => setOpenModal(true)}>+</button>
         </Toolbar>
       </AppBar>
       <Drawer variant="permanent" open={open}>
@@ -160,6 +164,10 @@ export default function MiniDrawer({ open, setOpen }: any) {
           </ListItem>
         </List>
       </Drawer>
+      <AddBillModal
+        openModal={openModal}
+        setOpenModal={setOpenModal}
+      ></AddBillModal>
     </Box>
   );
 }

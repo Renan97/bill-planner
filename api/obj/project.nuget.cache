@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "xCxnRAqhPtoN/lQejiU1F74OmPhZmlZWA0NZIOqqu06dLUubPuGEMzD/j5Hn7En9DikvYCwJAqbstELLdgJ7Lg==",
+  "dgSpecHash": "2jH3+8+5aV51HlEFZfrMaNcmOu7JMODUksJjdeU81I9Tc3D1+nJTpKYWYXyhjRQ95verj1I+gFOKUusmtF5T1Q==",
   "success": true,
-  "projectFilePath": "D:\\Trabalho\\Repositorio\\bill-planner\\api\\api.csproj",
+  "projectFilePath": "C:\\repositorio\\bill-planner\\api\\api.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

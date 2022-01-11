@@ -8,19 +8,19 @@
     "net5.0": []
   },
   "packageFolders": {
-    "C:\\Users\\Matheus\\.nuget\\packages\\": {}
+    "C:\\Users\\Nyan\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Trabalho\\Repositorio\\bill-planner\\api\\api.csproj",
+      "projectUniqueName": "C:\\repositorio\\bill-planner\\api\\api.csproj",
       "projectName": "api",
-      "projectPath": "D:\\Trabalho\\Repositorio\\bill-planner\\api\\api.csproj",
-      "packagesPath": "C:\\Users\\Matheus\\.nuget\\packages\\",
-      "outputPath": "D:\\Trabalho\\Repositorio\\bill-planner\\api\\obj\\",
+      "projectPath": "C:\\repositorio\\bill-planner\\api\\api.csproj",
+      "packagesPath": "C:\\Users\\Nyan\\.nuget\\packages\\",
+      "outputPath": "C:\\repositorio\\bill-planner\\api\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Matheus\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Nyan\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -63,7 +63,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
       }
     }
   }
