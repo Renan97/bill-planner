@@ -8,10 +8,10 @@ type AddBillModalType = {
   openModal: boolean;
   setOpenModal: React.Dispatch<React.SetStateAction<boolean>>;
 };
-const initialState = {
+const initialState: BillType = {
   id: 0,
   billName: "",
-  value: undefined,
+  value: 0,
   isPaid: false,
   finalDayPayment: "",
   expectedPaymentDate: "",
@@ -61,12 +61,17 @@ export default function AddBillModal({
 }: AddBillModalType) {
   const handleClose = () => setOpenModal(false);
   const dispatch = useAppDispatch();
-  const [createBill, setCreateBill] = useState<any>(initialState);
+  const [createBill, setCreateBill] = useState<BillType>(initialState);
 
   const handleChange = (event: any) => {
-    let state = { ...createBill };
-    state[event.target.id] = event.target.value;
-    setCreateBill(state);
+    // let state = { ...createBill };
+    // state[event.target.id] = event.target.value;
+    // setCreateBill(state);
+
+    setCreateBill({
+      ...createBill,
+      [event.target.id]: event.target.value as any,
+    });
   };
   const handleSave = () => {
     dispatch(addBill(createBill));

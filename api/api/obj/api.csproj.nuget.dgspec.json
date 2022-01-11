@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\repositorio\\bill-planner\\api\\api.csproj": {}
+    "C:\\repositorio\\bill-planner\\api\\api\\api.csproj": {}
   },
   "projects": {
-    "C:\\repositorio\\bill-planner\\api\\api.csproj": {
+    "C:\\repositorio\\bill-planner\\api\\api\\api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\repositorio\\bill-planner\\api\\api.csproj",
+        "projectUniqueName": "C:\\repositorio\\bill-planner\\api\\api\\api.csproj",
         "projectName": "api",
-        "projectPath": "C:\\repositorio\\bill-planner\\api\\api.csproj",
+        "projectPath": "C:\\repositorio\\bill-planner\\api\\api\\api.csproj",
         "packagesPath": "C:\\Users\\Nyan\\.nuget\\packages\\",
-        "outputPath": "C:\\repositorio\\bill-planner\\api\\obj\\",
+        "outputPath": "C:\\repositorio\\bill-planner\\api\\api\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Nyan\\AppData\\Roaming\\NuGet\\NuGet.Config",

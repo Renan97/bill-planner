@@ -19,7 +19,7 @@ namespace api.Controllers
         }
 
         [HttpGet]
-        [Route("signin")]
+        [Route("/users")]
         public IActionResult SignIn()
         {
             Result result = Result.GetInstance;
