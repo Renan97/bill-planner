@@ -1,0 +1,14 @@
+D:\Trabalho\Repositorio\bill-planner\api\BillPlannerApi\BillPlannerApi.Application\bin\Debug\netcoreapp3.1\BillPlannerApi.Application.deps.json
+D:\Trabalho\Repositorio\bill-planner\api\BillPlannerApi\BillPlannerApi.Application\bin\Debug\netcoreapp3.1\BillPlannerApi.Application.dll
+D:\Trabalho\Repositorio\bill-planner\api\BillPlannerApi\BillPlannerApi.Application\bin\Debug\netcoreapp3.1\BillPlannerApi.Application.pdb
+D:\Trabalho\Repositorio\bill-planner\api\BillPlannerApi\BillPlannerApi.Application\bin\Debug\netcoreapp3.1\BillPlannerApi.Domain.Core.dll
+D:\Trabalho\Repositorio\bill-planner\api\BillPlannerApi\BillPlannerApi.Application\bin\Debug\netcoreapp3.1\BillPlannerApi.Domain.dll
+D:\Trabalho\Repositorio\bill-planner\api\BillPlannerApi\BillPlannerApi.Application\bin\Debug\netcoreapp3.1\BillPlannerApi.Domain.Core.pdb
+D:\Trabalho\Repositorio\bill-planner\api\BillPlannerApi\BillPlannerApi.Application\bin\Debug\netcoreapp3.1\BillPlannerApi.Domain.pdb
+D:\Trabalho\Repositorio\bill-planner\api\BillPlannerApi\BillPlannerApi.Application\obj\Debug\netcoreapp3.1\BillPlannerApi.Application.csprojAssemblyReference.cache
+D:\Trabalho\Repositorio\bill-planner\api\BillPlannerApi\BillPlannerApi.Application\obj\Debug\netcoreapp3.1\BillPlannerApi.Application.AssemblyInfoInputs.cache
+D:\Trabalho\Repositorio\bill-planner\api\BillPlannerApi\BillPlannerApi.Application\obj\Debug\netcoreapp3.1\BillPlannerApi.Application.AssemblyInfo.cs
+D:\Trabalho\Repositorio\bill-planner\api\BillPlannerApi\BillPlannerApi.Application\obj\Debug\netcoreapp3.1\BillPlannerApi.Application.csproj.CoreCompileInputs.cache
+D:\Trabalho\Repositorio\bill-planner\api\BillPlannerApi\BillPlannerApi.Application\obj\Debug\netcoreapp3.1\BillPlannerApi.Application.csproj.CopyComplete
+D:\Trabalho\Repositorio\bill-planner\api\BillPlannerApi\BillPlannerApi.Application\obj\Debug\netcoreapp3.1\BillPlannerApi.Application.dll
+D:\Trabalho\Repositorio\bill-planner\api\BillPlannerApi\BillPlannerApi.Application\obj\Debug\netcoreapp3.1\BillPlannerApi.Application.pdb

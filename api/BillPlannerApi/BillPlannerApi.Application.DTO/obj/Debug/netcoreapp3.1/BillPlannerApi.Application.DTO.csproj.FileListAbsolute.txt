@@ -1,0 +1,9 @@
+D:\Trabalho\Repositorio\bill-planner\api\BillPlannerApi\BillPlannerApi.Application.DTO\bin\Debug\netcoreapp3.1\BillPlannerApi.Application.DTO.deps.json
+D:\Trabalho\Repositorio\bill-planner\api\BillPlannerApi\BillPlannerApi.Application.DTO\bin\Debug\netcoreapp3.1\BillPlannerApi.Application.DTO.dll
+D:\Trabalho\Repositorio\bill-planner\api\BillPlannerApi\BillPlannerApi.Application.DTO\bin\Debug\netcoreapp3.1\BillPlannerApi.Application.DTO.pdb
+D:\Trabalho\Repositorio\bill-planner\api\BillPlannerApi\BillPlannerApi.Application.DTO\obj\Debug\netcoreapp3.1\BillPlannerApi.Application.DTO.csprojAssemblyReference.cache
+D:\Trabalho\Repositorio\bill-planner\api\BillPlannerApi\BillPlannerApi.Application.DTO\obj\Debug\netcoreapp3.1\BillPlannerApi.Application.DTO.AssemblyInfoInputs.cache
+D:\Trabalho\Repositorio\bill-planner\api\BillPlannerApi\BillPlannerApi.Application.DTO\obj\Debug\netcoreapp3.1\BillPlannerApi.Application.DTO.AssemblyInfo.cs
+D:\Trabalho\Repositorio\bill-planner\api\BillPlannerApi\BillPlannerApi.Application.DTO\obj\Debug\netcoreapp3.1\BillPlannerApi.Application.DTO.csproj.CoreCompileInputs.cache
+D:\Trabalho\Repositorio\bill-planner\api\BillPlannerApi\BillPlannerApi.Application.DTO\obj\Debug\netcoreapp3.1\BillPlannerApi.Application.DTO.dll
+D:\Trabalho\Repositorio\bill-planner\api\BillPlannerApi\BillPlannerApi.Application.DTO\obj\Debug\netcoreapp3.1\BillPlannerApi.Application.DTO.pdb

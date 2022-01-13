@@ -1,0 +1,108 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "BillPlannerApi.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "compile": {
+          "bin/placeholder/BillPlannerApi.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/BillPlannerApi.Domain.dll": {}
+        }
+      },
+      "BillPlannerApi.Domain.Core/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "BillPlannerApi.Domain": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/BillPlannerApi.Domain.Core.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/BillPlannerApi.Domain.Core.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "BillPlannerApi.Domain/1.0.0": {
+      "type": "project",
+      "path": "../BillPlannerApi.Domain/BillPlannerApi.Domain.csproj",
+      "msbuildProject": "../BillPlannerApi.Domain/BillPlannerApi.Domain.csproj"
+    },
+    "BillPlannerApi.Domain.Core/1.0.0": {
+      "type": "project",
+      "path": "../BillPlannerApi.Domain.Core/BillPlannerApi.Domain.Core.csproj",
+      "msbuildProject": "../BillPlannerApi.Domain.Core/BillPlannerApi.Domain.Core.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETCoreApp,Version=v3.1": [
+      "BillPlannerApi.Domain.Core >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\Matheus\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "D:\\Trabalho\\Repositorio\\bill-planner\\api\\BillPlannerApi\\BillPlannerApi.Application\\BillPlannerApi.Application.csproj",
+      "projectName": "BillPlannerApi.Application",
+      "projectPath": "D:\\Trabalho\\Repositorio\\bill-planner\\api\\BillPlannerApi\\BillPlannerApi.Application\\BillPlannerApi.Application.csproj",
+      "packagesPath": "C:\\Users\\Matheus\\.nuget\\packages\\",
+      "outputPath": "D:\\Trabalho\\Repositorio\\bill-planner\\api\\BillPlannerApi\\BillPlannerApi.Application\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\Matheus\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "netcoreapp3.1"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "projectReferences": {
+            "D:\\Trabalho\\Repositorio\\bill-planner\\api\\BillPlannerApi\\BillPlannerApi.Domain.Core\\BillPlannerApi.Domain.Core.csproj": {
+              "projectPath": "D:\\Trabalho\\Repositorio\\bill-planner\\api\\BillPlannerApi\\BillPlannerApi.Domain.Core\\BillPlannerApi.Domain.Core.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "netcoreapp3.1": {
+        "targetAlias": "netcoreapp3.1",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
