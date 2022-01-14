@@ -6,3 +6,11 @@ D:\Trabalho\Repositorio\bill-planner\api\BillPlannerApi\BillPlannerApi.Infrastru
 D:\Trabalho\Repositorio\bill-planner\api\BillPlannerApi\BillPlannerApi.Infrastructure.Repository\obj\Debug\netcoreapp3.1\BillPlannerApi.Infrastructure.Repository.csprojAssemblyReference.cache
 D:\Trabalho\Repositorio\bill-planner\api\BillPlannerApi\BillPlannerApi.Infrastructure.Repository\obj\Debug\netcoreapp3.1\BillPlannerApi.Infrastructure.Repository.AssemblyInfoInputs.cache
 D:\Trabalho\Repositorio\bill-planner\api\BillPlannerApi\BillPlannerApi.Infrastructure.Repository\obj\Debug\netcoreapp3.1\BillPlannerApi.Infrastructure.Repository.AssemblyInfo.cs
+D:\Trabalho\Repositorio\bill-planner\api\BillPlannerApi\BillPlannerApi.Infrastructure.Repository\bin\Debug\netcoreapp3.1\BillPlannerApi.Infrastructure.Repository.deps.json
+D:\Trabalho\Repositorio\bill-planner\api\BillPlannerApi\BillPlannerApi.Infrastructure.Repository\bin\Debug\netcoreapp3.1\BillPlannerApi.Infrastructure.Repository.dll
+D:\Trabalho\Repositorio\bill-planner\api\BillPlannerApi\BillPlannerApi.Infrastructure.Repository\bin\Debug\netcoreapp3.1\BillPlannerApi.Infrastructure.Repository.pdb
+D:\Trabalho\Repositorio\bill-planner\api\BillPlannerApi\BillPlannerApi.Infrastructure.Repository\bin\Debug\netcoreapp3.1\BillPlannerApi.Infrastructure.Data.pdb
+D:\Trabalho\Repositorio\bill-planner\api\BillPlannerApi\BillPlannerApi.Infrastructure.Repository\obj\Debug\netcoreapp3.1\BillPlannerApi.Infrastructure.Repository.csproj.CoreCompileInputs.cache
+D:\Trabalho\Repositorio\bill-planner\api\BillPlannerApi\BillPlannerApi.Infrastructure.Repository\obj\Debug\netcoreapp3.1\BillPlannerApi.Infrastructure.Repository.csproj.CopyComplete
+D:\Trabalho\Repositorio\bill-planner\api\BillPlannerApi\BillPlannerApi.Infrastructure.Repository\obj\Debug\netcoreapp3.1\BillPlannerApi.Infrastructure.Repository.dll
+D:\Trabalho\Repositorio\bill-planner\api\BillPlannerApi\BillPlannerApi.Infrastructure.Repository\obj\Debug\netcoreapp3.1\BillPlannerApi.Infrastructure.Repository.pdb

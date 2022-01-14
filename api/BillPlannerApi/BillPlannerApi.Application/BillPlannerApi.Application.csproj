@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>netcoreapp3.1</TargetFramework>
@@ -7,10 +7,7 @@
   <ItemGroup>
     <ProjectReference Include="..\BillPlannerApi.Application.DTO\BillPlannerApi.Application.DTO.csproj" />
     <ProjectReference Include="..\BillPlannerApi.Domain.Core\BillPlannerApi.Domain.Core.csproj" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <Folder Include="Services\" />
+    <ProjectReference Include="..\BillPlannerApi.Infrastructure.Adapter\BillPlannerApi.Infrastructure.Adapter.csproj" />
   </ItemGroup>
 
 </Project>

@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\BillPlannerApi.Application\BillPlannerApi.Application.csproj" />
+    <ProjectReference Include="..\BillPlannerApi.Domain.Services\BillPlannerApi.Domain.Services.csproj" />
+    <ProjectReference Include="..\BillPlannerApi.Infrastructure.Repository\BillPlannerApi.Infrastructure.Repository.csproj" />
+  </ItemGroup>
+
+</Project>

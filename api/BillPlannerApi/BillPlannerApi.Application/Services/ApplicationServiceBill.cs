@@ -1,6 +1,7 @@
 ﻿using BillPlannerApi.Application.DTO.DTO;
 using BillPlannerApi.Application.Interfaces;
 using BillPlannerApi.Domain.Core.Interfaces.Services;
+using BillPlannerApi.Infrastructure.Adapter.Interfaces;
 using System;
 using System.Collections.Generic;
 using System.Text;

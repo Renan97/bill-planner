@@ -34,6 +34,20 @@
         "runtime": {
           "bin/placeholder/BillPlannerApi.Domain.Core.dll": {}
         }
+      },
+      "BillPlannerApi.Infrastructure.Adapter/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "BillPlannerApi.Application.DTO": "1.0.0",
+          "BillPlannerApi.Domain": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/BillPlannerApi.Infrastructure.Adapter.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/BillPlannerApi.Infrastructure.Adapter.dll": {}
+        }
       }
     }
   },
@@ -52,12 +66,18 @@
       "type": "project",
       "path": "../BillPlannerApi.Domain.Core/BillPlannerApi.Domain.Core.csproj",
       "msbuildProject": "../BillPlannerApi.Domain.Core/BillPlannerApi.Domain.Core.csproj"
+    },
+    "BillPlannerApi.Infrastructure.Adapter/1.0.0": {
+      "type": "project",
+      "path": "../BillPlannerApi.Infrastructure.Adapter/BillPlannerApi.Infrastructure.Adapter.csproj",
+      "msbuildProject": "../BillPlannerApi.Infrastructure.Adapter/BillPlannerApi.Infrastructure.Adapter.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
       "BillPlannerApi.Application.DTO >= 1.0.0",
-      "BillPlannerApi.Domain.Core >= 1.0.0"
+      "BillPlannerApi.Domain.Core >= 1.0.0",
+      "BillPlannerApi.Infrastructure.Adapter >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -92,6 +112,9 @@
             },
             "D:\\Trabalho\\Repositorio\\bill-planner\\api\\BillPlannerApi\\BillPlannerApi.Domain.Core\\BillPlannerApi.Domain.Core.csproj": {
               "projectPath": "D:\\Trabalho\\Repositorio\\bill-planner\\api\\BillPlannerApi\\BillPlannerApi.Domain.Core\\BillPlannerApi.Domain.Core.csproj"
+            },
+            "D:\\Trabalho\\Repositorio\\bill-planner\\api\\BillPlannerApi\\BillPlannerApi.Infrastructure.Adapter\\BillPlannerApi.Infrastructure.Adapter.csproj": {
+              "projectPath": "D:\\Trabalho\\Repositorio\\bill-planner\\api\\BillPlannerApi\\BillPlannerApi.Infrastructure.Adapter\\BillPlannerApi.Infrastructure.Adapter.csproj"
             }
           }
         }

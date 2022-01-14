@@ -8,6 +8,6 @@ namespace BillPlannerApi.Application.DTO.DTO
     {
         public int? Id { get; set; }
         public string Name { get; set; }
-        public string Value { get; set; }
+        public double Value { get; set; }
     }
 }

@@ -12,3 +12,7 @@ D:\Trabalho\Repositorio\bill-planner\api\BillPlannerApi\BillPlannerApi.Applicati
 D:\Trabalho\Repositorio\bill-planner\api\BillPlannerApi\BillPlannerApi.Application\obj\Debug\netcoreapp3.1\BillPlannerApi.Application.csproj.CopyComplete
 D:\Trabalho\Repositorio\bill-planner\api\BillPlannerApi\BillPlannerApi.Application\obj\Debug\netcoreapp3.1\BillPlannerApi.Application.dll
 D:\Trabalho\Repositorio\bill-planner\api\BillPlannerApi\BillPlannerApi.Application\obj\Debug\netcoreapp3.1\BillPlannerApi.Application.pdb
+D:\Trabalho\Repositorio\bill-planner\api\BillPlannerApi\BillPlannerApi.Application\bin\Debug\netcoreapp3.1\BillPlannerApi.Application.DTO.dll
+D:\Trabalho\Repositorio\bill-planner\api\BillPlannerApi\BillPlannerApi.Application\bin\Debug\netcoreapp3.1\BillPlannerApi.Infrastructure.Adapter.dll
+D:\Trabalho\Repositorio\bill-planner\api\BillPlannerApi\BillPlannerApi.Application\bin\Debug\netcoreapp3.1\BillPlannerApi.Application.DTO.pdb
+D:\Trabalho\Repositorio\bill-planner\api\BillPlannerApi\BillPlannerApi.Application\bin\Debug\netcoreapp3.1\BillPlannerApi.Infrastructure.Adapter.pdb

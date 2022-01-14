@@ -8,10 +8,17 @@
     ".NETCoreApp,Version=v3.1": {
       "BillPlannerApi.Application/1.0.0": {
         "dependencies": {
-          "BillPlannerApi.Domain.Core": "1.0.0"
+          "BillPlannerApi.Application.DTO": "1.0.0",
+          "BillPlannerApi.Domain.Core": "1.0.0",
+          "BillPlannerApi.Infrastructure.Adapter": "1.0.0"
         },
         "runtime": {
           "BillPlannerApi.Application.dll": {}
+        }
+      },
+      "BillPlannerApi.Application.DTO/1.0.0": {
+        "runtime": {
+          "BillPlannerApi.Application.DTO.dll": {}
         }
       },
       "BillPlannerApi.Domain/1.0.0": {
@@ -26,11 +33,25 @@
         "runtime": {
           "BillPlannerApi.Domain.Core.dll": {}
         }
+      },
+      "BillPlannerApi.Infrastructure.Adapter/1.0.0": {
+        "dependencies": {
+          "BillPlannerApi.Application.DTO": "1.0.0",
+          "BillPlannerApi.Domain": "1.0.0"
+        },
+        "runtime": {
+          "BillPlannerApi.Infrastructure.Adapter.dll": {}
+        }
       }
     }
   },
   "libraries": {
     "BillPlannerApi.Application/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "BillPlannerApi.Application.DTO/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
@@ -41,6 +62,11 @@
       "sha512": ""
     },
     "BillPlannerApi.Domain.Core/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "BillPlannerApi.Infrastructure.Adapter/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
