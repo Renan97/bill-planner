@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30711.63
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BillPlannerApi", "BillPlannerApi\BillPlannerApi.csproj", "{C49A0C59-C308-4B51-9B03-3C35E05B65C8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BillPlannerApi", "BillPlannerApi\BillPlannerApi.csproj", "{C49A0C59-C308-4B51-9B03-3C35E05B65C8}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1.0 - Presentation", "1.0 - Presentation", "{F9B8714F-D3CE-4BA0-982B-E5A60CF73E96}"
 EndProject
@@ -13,15 +13,21 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3.0 - Domain", "3.0 - Domai
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4.0 - Infrastructure", "4.0 - Infrastructure", "{12F86671-C58A-4850-BB90-DCACA090C2E0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BillPlannerApi.Domain", "BillPlannerApi.Domain\BillPlannerApi.Domain.csproj", "{542BE735-1C44-495C-AD72-45CD14643E80}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BillPlannerApi.Domain", "BillPlannerApi.Domain\BillPlannerApi.Domain.csproj", "{542BE735-1C44-495C-AD72-45CD14643E80}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BillPlannerApi.Domain.Core", "BillPlannerApi.Domain.Core\BillPlannerApi.Domain.Core.csproj", "{20C676EC-39A7-4C9E-AFA0-C4E630348530}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BillPlannerApi.Domain.Core", "BillPlannerApi.Domain.Core\BillPlannerApi.Domain.Core.csproj", "{20C676EC-39A7-4C9E-AFA0-C4E630348530}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BillPlannerApi.Domain.Services", "BillPlannerApi.Domain.Services\BillPlannerApi.Domain.Services.csproj", "{20E0E976-E85C-4E10-9F25-59E8195B6295}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BillPlannerApi.Domain.Services", "BillPlannerApi.Domain.Services\BillPlannerApi.Domain.Services.csproj", "{20E0E976-E85C-4E10-9F25-59E8195B6295}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BillPlannerApi.Application", "BillPlannerApi.Application\BillPlannerApi.Application.csproj", "{94068285-7CA5-4D5E-8D0F-432815944BCB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BillPlannerApi.Application", "BillPlannerApi.Application\BillPlannerApi.Application.csproj", "{94068285-7CA5-4D5E-8D0F-432815944BCB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BillPlannerApi.Application.DTO", "BillPlannerApi.Application.DTO\BillPlannerApi.Application.DTO.csproj", "{2777168B-3887-42C7-A135-0A8545F4C021}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BillPlannerApi.Application.DTO", "BillPlannerApi.Application.DTO\BillPlannerApi.Application.DTO.csproj", "{2777168B-3887-42C7-A135-0A8545F4C021}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4.1 - Data", "4.1 - Data", "{A1D09E6F-AB24-4D46-A1A2-6D2C265A6372}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BillPlannerApi.Infrastructure.Data", "BillPlannerApi.Infrastructure.Data\BillPlannerApi.Infrastructure.Data.csproj", "{36B35B7F-D12B-4C98-87C8-72C91C23C7C2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BillPlannerApi.Infrastructure.Repository", "BillPlannerApi.Infrastructure.Repository\BillPlannerApi.Infrastructure.Repository.csproj", "{78FAA426-3EE1-4B2C-8F4F-B5B4BF2B91AC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -53,6 +59,14 @@ Global
 		{2777168B-3887-42C7-A135-0A8545F4C021}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2777168B-3887-42C7-A135-0A8545F4C021}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2777168B-3887-42C7-A135-0A8545F4C021}.Release|Any CPU.Build.0 = Release|Any CPU
+		{36B35B7F-D12B-4C98-87C8-72C91C23C7C2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{36B35B7F-D12B-4C98-87C8-72C91C23C7C2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{36B35B7F-D12B-4C98-87C8-72C91C23C7C2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{36B35B7F-D12B-4C98-87C8-72C91C23C7C2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{78FAA426-3EE1-4B2C-8F4F-B5B4BF2B91AC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{78FAA426-3EE1-4B2C-8F4F-B5B4BF2B91AC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{78FAA426-3EE1-4B2C-8F4F-B5B4BF2B91AC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{78FAA426-3EE1-4B2C-8F4F-B5B4BF2B91AC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -63,6 +77,9 @@ Global
 		{20E0E976-E85C-4E10-9F25-59E8195B6295} = {F9BFDD0F-1C59-4DC2-9870-6C03B7478B25}
 		{94068285-7CA5-4D5E-8D0F-432815944BCB} = {D77F4EC8-A853-4012-8D8A-58EADA80872B}
 		{2777168B-3887-42C7-A135-0A8545F4C021} = {D77F4EC8-A853-4012-8D8A-58EADA80872B}
+		{A1D09E6F-AB24-4D46-A1A2-6D2C265A6372} = {12F86671-C58A-4850-BB90-DCACA090C2E0}
+		{36B35B7F-D12B-4C98-87C8-72C91C23C7C2} = {A1D09E6F-AB24-4D46-A1A2-6D2C265A6372}
+		{78FAA426-3EE1-4B2C-8F4F-B5B4BF2B91AC} = {A1D09E6F-AB24-4D46-A1A2-6D2C265A6372}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {308F383E-DFC1-4C2F-AC1C-47329AB4920E}

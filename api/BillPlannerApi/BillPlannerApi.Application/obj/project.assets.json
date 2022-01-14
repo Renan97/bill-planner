@@ -2,6 +2,16 @@
   "version": 3,
   "targets": {
     ".NETCoreApp,Version=v3.1": {
+      "BillPlannerApi.Application.DTO/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "compile": {
+          "bin/placeholder/BillPlannerApi.Application.DTO.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/BillPlannerApi.Application.DTO.dll": {}
+        }
+      },
       "BillPlannerApi.Domain/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v3.1",
@@ -28,6 +38,11 @@
     }
   },
   "libraries": {
+    "BillPlannerApi.Application.DTO/1.0.0": {
+      "type": "project",
+      "path": "../BillPlannerApi.Application.DTO/BillPlannerApi.Application.DTO.csproj",
+      "msbuildProject": "../BillPlannerApi.Application.DTO/BillPlannerApi.Application.DTO.csproj"
+    },
     "BillPlannerApi.Domain/1.0.0": {
       "type": "project",
       "path": "../BillPlannerApi.Domain/BillPlannerApi.Domain.csproj",
@@ -41,6 +56,7 @@
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
+      "BillPlannerApi.Application.DTO >= 1.0.0",
       "BillPlannerApi.Domain.Core >= 1.0.0"
     ]
   },
@@ -71,6 +87,9 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
+            "D:\\Trabalho\\Repositorio\\bill-planner\\api\\BillPlannerApi\\BillPlannerApi.Application.DTO\\BillPlannerApi.Application.DTO.csproj": {
+              "projectPath": "D:\\Trabalho\\Repositorio\\bill-planner\\api\\BillPlannerApi\\BillPlannerApi.Application.DTO\\BillPlannerApi.Application.DTO.csproj"
+            },
             "D:\\Trabalho\\Repositorio\\bill-planner\\api\\BillPlannerApi\\BillPlannerApi.Domain.Core\\BillPlannerApi.Domain.Core.csproj": {
               "projectPath": "D:\\Trabalho\\Repositorio\\bill-planner\\api\\BillPlannerApi\\BillPlannerApi.Domain.Core\\BillPlannerApi.Domain.Core.csproj"
             }

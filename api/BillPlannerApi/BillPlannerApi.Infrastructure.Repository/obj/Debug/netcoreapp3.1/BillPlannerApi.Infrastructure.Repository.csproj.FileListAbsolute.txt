@@ -1,0 +1,8 @@
+D:\Trabalho\Repositorio\bill-planner\api\BillPlannerApi\BillPlannerApi.Infrastructure.Repository\bin\Debug\netcoreapp3.1\BillPlannerApi.Domain.Core.dll
+D:\Trabalho\Repositorio\bill-planner\api\BillPlannerApi\BillPlannerApi.Infrastructure.Repository\bin\Debug\netcoreapp3.1\BillPlannerApi.Domain.dll
+D:\Trabalho\Repositorio\bill-planner\api\BillPlannerApi\BillPlannerApi.Infrastructure.Repository\bin\Debug\netcoreapp3.1\BillPlannerApi.Infrastructure.Data.dll
+D:\Trabalho\Repositorio\bill-planner\api\BillPlannerApi\BillPlannerApi.Infrastructure.Repository\bin\Debug\netcoreapp3.1\BillPlannerApi.Domain.Core.pdb
+D:\Trabalho\Repositorio\bill-planner\api\BillPlannerApi\BillPlannerApi.Infrastructure.Repository\bin\Debug\netcoreapp3.1\BillPlannerApi.Domain.pdb
+D:\Trabalho\Repositorio\bill-planner\api\BillPlannerApi\BillPlannerApi.Infrastructure.Repository\obj\Debug\netcoreapp3.1\BillPlannerApi.Infrastructure.Repository.csprojAssemblyReference.cache
+D:\Trabalho\Repositorio\bill-planner\api\BillPlannerApi\BillPlannerApi.Infrastructure.Repository\obj\Debug\netcoreapp3.1\BillPlannerApi.Infrastructure.Repository.AssemblyInfoInputs.cache
+D:\Trabalho\Repositorio\bill-planner\api\BillPlannerApi\BillPlannerApi.Infrastructure.Repository\obj\Debug\netcoreapp3.1\BillPlannerApi.Infrastructure.Repository.AssemblyInfo.cs

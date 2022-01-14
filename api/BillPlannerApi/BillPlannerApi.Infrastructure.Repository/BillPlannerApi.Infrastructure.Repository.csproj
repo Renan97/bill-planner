@@ -5,12 +5,8 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\BillPlannerApi.Application.DTO\BillPlannerApi.Application.DTO.csproj" />
     <ProjectReference Include="..\BillPlannerApi.Domain.Core\BillPlannerApi.Domain.Core.csproj" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <Folder Include="Services\" />
+    <ProjectReference Include="..\BillPlannerApi.Infrastructure.Data\BillPlannerApi.Infrastructure.Data.csproj" />
   </ItemGroup>
 
 </Project>
